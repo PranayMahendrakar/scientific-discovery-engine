@@ -1,0 +1,23 @@
+# 🛰️ Scientific Discovery Engine - Dependencies
+
+# -- LLM & AI -----------------------------------------------
+openai>=1.40.0                  # OpenAI GPT-4o / GPT-4o-mini API
+python-dotenv>=1.0.0            # Environment variable management
+
+# -- Web & APIs ---------------------------------------------
+requests>=2.31.0                # HTTP requests for ArXiv/PubMed APIs
+lxml>=5.2.0                     # XML parsing for ArXiv feed
+
+# -- Web UI -------------------------------------------------
+streamlit>=1.38.0               # Web application framework
+
+# -- Data Processing ----------------------------------------
+tqdm>=4.66.0                    # Progress bars for CLI
+
+# -- Optional: Graph Visualization --------------------------
+# networkx>=3.3                 # Graph algorithms (optional)
+# pyvis>=0.3.2                  # Interactive graph visualization (optional)
+
+# -- Optional: PDF Ingestion --------------------------------
+# pdfplumber>=0.11.0            # Read PDF papers (optional)
+# pymupdf>=1.24.0               # Alternative PDF reader (optional)
